@@ -1,0 +1,123 @@
+body > * {
+  box-sizing: border-box;
+  font-family: 'Open Sans';
+}
+
+body{
+  background-color: black;
+  color: lightgray;
+}
+
+a {
+  text-decoration: none;
+  font-weight: 600;
+  color: inherit;
+}
+
+a:hover {
+  opacity: .70;
+}
+
+img {
+  width: 100%;
+}
+
+.container {
+  margin: 0 auto;
+  padding: 0 30px;
+  max-width: 1200px;
+}
+
+.row {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.section {
+  margin-bottom: 60px;
+}
+
+.bar {
+  background-image: url('imgs/supsy.png');
+  background-blend-mode: multiply;
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 85vh;
+  min-height: 230px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+ 
+ 
+.nav {
+position: absolute;   
+max-width: 100%;
+top:0;
+padding-top: 5px;
+}
+
+.nav ul{
+ display:flex;
+ justify-content: center;
+ list-style: none;
+}
+
+.nav li{
+ padding:30px;
+ font-size: x-large;
+ text-decoration: underline;
+}
+
+#title{
+  font-size: x-large;
+  font-weight: lighter;
+  font-style: italic;
+  text-decoration: underline;
+}
+
+#heading{
+  text-decoration: underline;
+  text-align: center;
+}
+
+.anime, .novelties, .games, .comics {
+
+  box-shadow: 1px 1px 35px rgb(119, 114, 114);
+  display: flex;
+  flex-direction: column; 
+  margin: 0 0 40px; 
+}
+
+.anime:hover, .novelties:hover, .games:hover , .comics:hover{
+  box-shadow: 1px 1px 35px rgba(170, 151, 151, 0.17);
+}
+
+
+.anime .image-wrapper img{
+  object-fit: cover; 
+  height: 100%;
+  width: 100%;
+}
+
+
+.footer {
+  margin-bottom: 60px;
+}
+.footer > * {
+  font-size: .8rem;
+  color: gray;
+}
+.footer .row > div {
+  margin-bottom: 30px;
+}
+.footer-links a{
+  display: block;
+  margin-bottom: 10px;
+}
+
+
+
