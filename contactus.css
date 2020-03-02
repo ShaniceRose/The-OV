@@ -60,88 +60,37 @@ h1,h2{
     margin: 50px;
 }
 
-
-h3{
+#title{
+    font-size: x-large;
+    font-weight: lighter;
+    font-style: italic;
     text-decoration: underline;
-    font-family: 'Open Sans';
-    font-size: medium;
 }
 
-p {
-    padding: 25px;
-    margin-left: 10px;
-    border-left: 5px groove black;
-    text-align: center;
-    font-size: small;
-    border-left: 1px solid lightgray;
-}
-
-.p2 {
-    
+form {
     display: flex;
-    position: relative;
-    font-size:smaller;
-    justify-content: flex-end;
-   
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
-
-
-
-.leftcontent{
+.field {
     display: flex;
-    
-    
+    flex-direction: column;
+    padding:5em;
+    width: 70%;
+      
 }
 
-.boxA {
-    background-color:black;
-    box-shadow: 1px 1px 35px rgb(119, 114, 114);
-    width:300px;
-    height:400px;
-    margin: 30px 30px 150px 30px;
-    padding: 30px;
-    
-}
-
-.boxA:hover{
-    box-shadow: 1px 1px 35px rgba(170, 151, 151, 0.17);
-
-}
-
-.middlecontent {
+.messageField {
     display: flex;
+    flex-direction: column;
+    padding:5rem;
+    width: 70%;  
+}
+
+.button {
+    display:flex;
     
 }
 
-
-.boxB {
-    background-color:black;
-    box-shadow: 1px 1px 35px rgb(119, 114, 114);
-    width:300px;
-    height:400px;
-    margin: 30px 30px 300px 30px;
-    padding: 30px;
-    
-}
-
-.boxB:hover{
-    box-shadow: 1px 1px 35px rgba(170, 151, 151, 0.17);
-}
-    
-
-
-.footer {
-    margin-bottom: 60px;
-}
-.footer > * {
-    font-size: .8rem;
-    color: gray;
-}
-.footer .row > div {
-    margin-bottom: 30px;
-}
-.footer-links a{
-    display: block;
-    margin-bottom: 10px;
-}
