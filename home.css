@@ -84,23 +84,25 @@ padding-top: 5px;
   text-align: center;
 }
 
-.anime, .novelties, .games, .comics {
+.card {
 
   box-shadow: 1px 1px 35px rgb(119, 114, 114);
   display: flex;
   flex-direction: column; 
   margin: 0 0 40px; 
+  max-width: 25em; 
 }
 
-.anime:hover, .novelties:hover, .games:hover , .comics:hover{
+.card:hover {
   box-shadow: 1px 1px 35px rgba(170, 151, 151, 0.17);
+
 }
 
 
-.anime .image-wrapper img{
-  object-fit: cover; 
-  height: 100%;
-  width: 100%;
+ .image-wrapper {
+  object-fit: cover;
+  width: 0%;
+
 }
 
 
@@ -119,5 +121,13 @@ padding-top: 5px;
   margin-bottom: 10px;
 }
 
+
+@media (min-width:650px) {
+
+  
+
+
+
+}
 
 
