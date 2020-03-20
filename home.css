@@ -101,7 +101,7 @@ padding-top: 5px;
 
  .image-wrapper {
   object-fit: cover;
-  width: 0%;
+  width: 400px;
 
 }
 
@@ -124,7 +124,7 @@ padding-top: 5px;
 
 @media (min-width:650px) {
 
-  
+
 
 
 
